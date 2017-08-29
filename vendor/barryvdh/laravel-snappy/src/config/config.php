@@ -5,13 +5,13 @@ return array(
 
     'pdf' => array(
         'enabled' => true,
-        'binary' => 'vendor\wemersonjanuario\wkhtmltopdf-windows\bin\64bit\wkhtmltopdf.exe',
+        'binary' => '/usr/local/bin/wkhtmltopdf',
         'timeout' => false,
         'options' => array(),
     ),
     'image' => array(
         'enabled' => true,
-        'binary' => 'vendor\wemersonjanuario\wkhtmltopdf-windows\bin\64bit\wkhtmltoimage.exe',
+        'binary' => '/usr/local/bin/wkhtmltoimage',
         'timeout' => false,
         'options' => array(),
     ),

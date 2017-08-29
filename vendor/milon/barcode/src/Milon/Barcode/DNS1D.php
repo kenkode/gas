@@ -139,8 +139,7 @@ class DNS1D {
             $x += $bw;
         }
         $html .= '</div>' . "\n";
-
-        return $html .= '<div class="code" style="background-color:' . $color . ';width:' . $bw . 'px;height:' . $bh . 'px;position:absolute;left:' . $x . 'px;top:' . $y . 'px;">&nbsp;</div>' . "\n";  
+        return $html;
     }
 
     /**
